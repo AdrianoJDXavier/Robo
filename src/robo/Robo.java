@@ -36,16 +36,17 @@ public class Robo {
                     System.out.println(resposta);
                 } else if (opcao2 == 2) {
                     System.out.println("\n----->Digite o calculo<-----");
+                    System.out.println("\nComandos válidos:\nsome\ndiminua\nmultiplique,\ndivida ");
                     Scanner sc2 = new Scanner(System.in);
                     String tipoCal = sc2.nextLine();
                     MarcianoMat roboMat = new MarcianoMat();
                     System.out.println("\n----->Digite o 1° número<-----");
                     Scanner sc3 = new Scanner(System.in);
-                    int a = sc3.nextInt();
+                    float a = sc3.nextFloat();
                     System.out.println("\n----->Digite o 2° número<-----");
                     Scanner sc4 = new Scanner(System.in);
-                    int b = sc4.nextInt();
-                    int calculo = roboMat.responda(tipoCal, a, b);
+                    float b = sc4.nextFloat();
+                    float calculo = roboMat.responda(tipoCal, a, b);
                     if (calculo != 0) {
                         System.out.println("Essa eu sei");
                         System.out.println(calculo);
@@ -54,6 +55,9 @@ public class Robo {
                     }
                 } else if (opcao2 == 3) {
                     System.out.println("\n----->Ola, vamos jogar?<-----");
+                    System.out.println("\n            (ツ゚)");
+
+                    System.out.println("\nComando válido:\nagir");
                     Scanner sc1 = new Scanner(System.in);
                     String resposta = sc1.nextLine();
                     if ("agir".equals(resposta)) {

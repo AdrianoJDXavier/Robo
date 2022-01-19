@@ -24,7 +24,7 @@ public class MarcianoPremium extends Marciano{
         Thread.sleep(5000);
         System.out.println("\nSome 9.");
         Thread.sleep(5000);
-        System.out.println("\n Multiplique a soma por 5.");
+        System.out.println("\nMultiplique a soma por 5.");
         Thread.sleep(5000);
         System.out.println("\n----->Qual o resultado do seu cálculo?<-----");
         Scanner sc1 = new Scanner(System.in);
@@ -35,6 +35,6 @@ public class MarcianoPremium extends Marciano{
         Thread.sleep(5000);
         System.out.println("\nVocê pensou no número ".concat(resultado2));
         
-        System.out.println("\nImpressionante né?");
+        System.out.println("\nImpressionante né?  ✌(ツ)");
     }
 }

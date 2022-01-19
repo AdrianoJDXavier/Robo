@@ -10,7 +10,7 @@ package robo;
  */
 public class MarcianoMat extends Marciano {
 
-    public int responda(String pergunta, int a, int b) {
+    public float responda(String pergunta, float a, float b) {
         if (null == pergunta) {
             return 0;
         } else {
