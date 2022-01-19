@@ -20,7 +20,7 @@ public class Robo {
 
         Scanner sc = new Scanner(System.in);
         String opcao = "0";
-        while (opcao != "5") {
+        while (opcao != "4") {
             System.out.println("\n----->Digite sua opção<-----\n----->1 - Robô Marciano\n----->2 - Robô Matemático\n----->3 - Robô Premium\n----->4 - SAIR");
             opcao = sc.nextLine().toUpperCase();
             if (opcao.matches("[A-Z]*")) {
@@ -65,6 +65,7 @@ public class Robo {
                     System.out.println("opção invalida");
                 } else if (opcao2 == 4) {
                     System.out.println("Programa encerrado");
+                    break;
                 }
             }
         }
