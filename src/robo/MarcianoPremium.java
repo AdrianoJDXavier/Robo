@@ -10,9 +10,9 @@ import java.util.Scanner;
  *
  * @author adriano
  */
-public class MarcianoPremium extends Marciano{
-    
-    public void adivinhacao() throws InterruptedException{
+public class MarcianoPremium extends Marciano {
+
+    public void adivinhacao() throws InterruptedException {
         System.out.println("\nOK Vamos jogar!");
         System.out.println("\nPense em um número qualquer!");
         Thread.sleep(4000);
@@ -31,10 +31,10 @@ public class MarcianoPremium extends Marciano{
         int calculo = sc1.nextInt();
         int resultado = calculo - 165;
         String resultado2 = Integer.toString(resultado);
-        resultado2 = resultado2.substring(0, resultado2.length()-2);
+        resultado2 = resultado2.substring(0, resultado2.length() - 2);
         Thread.sleep(5000);
         System.out.println("\nVocê pensou no número ".concat(resultado2));
-        
+
         System.out.println("\nImpressionante né?  ✌(ツ)");
     }
 }
